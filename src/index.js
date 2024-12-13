@@ -17,9 +17,16 @@ const UntitledIcon = ({
   const Component = Icon[iconComponentName];
 
   return Component ? (
-    <Component {...props} fill={color || "black"} width={size} height={size} />
+    <Component
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      color={color || "black"}
+      // fill={color || "black"}
+      {...props}
+    />
   ) : (
-    <Text>Invalid Icon Name</Text>
+    <Text>Invalid Icon</Text>
   );
 };
 
