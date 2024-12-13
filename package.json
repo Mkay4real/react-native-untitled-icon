@@ -2,7 +2,7 @@
   "name": "react-native-untitled-icon",
   "description": "Untitled Icon for React Native",
   "author": "Mukhtar Oyelayo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "homepage": "https://github.com/Mkay4real/react-native-untitled-icon",
